@@ -1,0 +1,127 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+body{
+   background: url('../img/istockphoto-1170275727-612x612.jpg');
+   font-family: "Lato", sans-serif;
+   }
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.game-section{
+   margin: 50px auto;
+   padding: 60px;
+   max-width: 600px;
+   border: 2px solid #333;
+   border-radius: 10px;
+   background-color: beige;
+}
+.game-section h2{
+   font-weight: 700;
+   margin-bottom: 30px;
+   font-size: 24px;
+}
+.game-block{
+   height: 40px;
+   visibility: hidden;
+}
+.one{
+   width: 40px;
+   background-color: rgb(31, 199, 73);
+   visibility: visible;
+}
+.two{
+   min-width: 100%;
+   background-color: rgb(113, 113, 199);
+}
+.three{
+   width: 40px;
+   height: 70px;
+   margin: 0 0 0 auto;
+   background-color: rgb(37, 100, 158);
+}
+.four{
+   height: 20px;
+   background-color: rgb(18, 49, 133);
+}
+.five{
+   width: 16px;
+   height: 150px;
+   background-color: rgb(56, 11, 116);
+}
+.six{
+   height: 12px;
+   background-color: rgb(209, 52, 52);
+}
+.seven{
+   height: 15px;
+   width: 59px;
+   margin-left: auto;
+   background-color: rgb(75, 11, 11);
+}
+.final{
+   margin-top: 20px;
+   width: 400px;
+   height: 100px;
+   padding-top: 20px;
+   font-weight: 700;
+   background-color: rgb(233, 236, 185);
+   border-radius: 8px;
+   text-align: center;
+   box-shadow: 14px 12px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.one:hover + .two{
+   visibility: visible;
+}
+.two:hover{
+   visibility: visible;
+}
+.two:hover + .three{
+   visibility: visible;
+}
+.three:hover{
+   visibility: visible;
+}
+.three:hover + .four{
+   visibility: visible;
+}
+.four:hover{
+   visibility: visible;
+}
+.four:hover + .five{
+   visibility: visible;
+}
+.five:hover{
+   visibility: visible;
+}
+.five:hover + .six{
+   visibility: visible;
+}
+.six:hover{
+   visibility: visible;
+}
+.six:hover + .seven{
+   visibility: visible;
+}
+.seven:hover{
+   visibility: visible;
+}
+.seven:hover + .final{
+   visibility: visible;
+}
+.final:hover{
+   visibility: visible;
+}
+.footer-link{
+   margin: 60px auto;
+   max-width: 400px;
+   display: block;
+   text-align: center;
+   background-color: rgb(239, 240, 185);
+   padding: 10px 50px;
+   border-radius: 10px;
+   font-weight: 700;
+}
+.footer-link:hover{
+   background-color: rgb(248, 242, 157);
+}
